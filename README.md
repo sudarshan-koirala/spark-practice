@@ -22,8 +22,8 @@ To copy folder, `gsutil cp -r foldername gs://bucket-name`
 `curl -L https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-06.csv | gsutil cp - gs://bucket-name/yellow_tripdata_2020-06.csv`
 
 ### Some of the useful commands with links
-[hadoop-hdfs-commands-cheatsheet](http://images.linoxide.com/hadoop-hdfs-commands-cheatsheet.pdf)
-[pyspark-sql-commands-cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf)
+* [hadoop-hdfs-commands-cheatsheet](http://images.linoxide.com/hadoop-hdfs-commands-cheatsheet.pdf)
+* [pyspark-sql-commands-cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf)
 
 ### Check versions
 ```
