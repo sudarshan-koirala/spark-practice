@@ -13,6 +13,18 @@ Learning spark the right way
 9. Connect the cluster with command from view gcloud command next to ssh dropdown. For example -> `gcloud beta compute ssh --zone "us-central1-a" "mysimbdp-m" --project "learning-bigdata-2021"`
 10. Now, you are connected to gcp console through your local machine.
 
+### Upload file from local machine to gcp bucket
+While installing gcloud sdk, it also installs gsutil, 
+To copy file, `gsutil cp filename gs://bucket-name`
+To copy folder, `gsutil cp -r foldername gs://bucket-name`
+
+### Download data from web directly to google bucket
+`curl -L https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-06.csv | gsutil cp - gs://bucket-name/yellow_tripdata_2020-06.csv`
+
+### Some of the useful commands with links
+[hadoop-hdfs-commands-cheatsheet](http://images.linoxide.com/hadoop-hdfs-commands-cheatsheet.pdf)
+[pyspark-sql-commands-cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf)
+
 ### Check versions
 ```
 hadoop version
