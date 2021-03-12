@@ -12,3 +12,10 @@ Learning spark the right way
 8. Authenticate gcp with gcloud auth example -> `gcloud auth activate-service-account test-service-account@google.com  --key-file=/path/key.json --project=testproject` [Link to gcp website](https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account)
 9. Connect the cluster with command from view gcloud command next to ssh dropdown. For example -> `gcloud beta compute ssh --zone "us-central1-a" "mysimbdp-m" --project "learning-bigdata-2021"`
 10. Now, you are connected to gcp console through your local machine.
+
+### Check versions
+```
+hadoop version
+spark-submit --version
+hive --version
+```
