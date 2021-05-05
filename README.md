@@ -1,6 +1,8 @@
 # spark-practice
 Learning spark the right way
 
+# Environment Setup
+
 ## Creating environment and installing packages
 Assuming you have python and pip installed
 
@@ -9,6 +11,14 @@ Assuming you have python and pip installed
 3. Activate the virutal env -> `source spark/bin/activate`
 4. Install all the packages -> `pip3 install -r requirements.txt`
 5. Run jupyterlab -> `jupyter lab`
+
+## In some of the case, having conda environment is better
+Assuming you have anaconda installed
+
+1. Create conda environment -> `conda create -n spark python=3.8`
+2. Activate the conda env -> `source/conda activate spark`
+3. Install all the packages -> `pip/pip3 install -r requirements.txt`
+4. Run jupyterlab -> `jupyter lab`
 
 ### Steps to create new spark project in Google Cloud Platform
 1. Create a project from the navigation bar > new project
