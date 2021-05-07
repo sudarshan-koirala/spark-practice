@@ -2,3 +2,4 @@ jupyterlab
 pyspark
 watermark
 nb-black
+seaborn
