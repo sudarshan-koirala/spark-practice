@@ -1,3 +1,4 @@
+jupyterlab
 pyspark
 watermark
 nb-black
