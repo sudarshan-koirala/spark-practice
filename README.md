@@ -3,6 +3,12 @@ Learning spark the right way
 
 # Environment Setup
 
+Note: Check you have java installed because pyspark needs java.
+```
+sudo apt update
+sudo apt install default-jdk
+```
+
 ## Creating environment and installing packages
 Assuming you have python and pip installed
 
@@ -17,6 +23,7 @@ Assuming you have anaconda installed
 
 1. Create conda environment -> `conda create -n spark python=3.8`
 2. Activate the conda env -> `source/conda activate spark`
+3. Install kernel -> `ipython kernel install --user --name spark`
 3. Install all the packages -> `pip/pip3 install -r requirements.txt`
 4. Run jupyterlab -> `jupyter lab`
 
