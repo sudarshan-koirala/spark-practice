@@ -1,5 +1,6 @@
 # spark-practice
 Learning spark the right way
+
 [Pyspark Documentation](https://spark.apache.org/docs/latest/api/python/)
 
 # Environment Setup
