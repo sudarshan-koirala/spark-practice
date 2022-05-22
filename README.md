@@ -3,6 +3,8 @@ Learning spark the right way
 
 [Pyspark Documentation](https://spark.apache.org/docs/latest/api/python/)
 
+**Recommend practice stuffs in Databricks itself so you can learn better between different pieces available there.**
+
 # Environment Setup
 
 Note: Check you have java installed because pyspark needs java.
